@@ -21,7 +21,8 @@ export default function Home() {
     walletconnect: {
       package: WalletConnectProvider, // required
       options: {
-        infuraId: infuraID, // required
+        infuraId: infuraID,
+        rpc: `https://rinkeby.infura.io/v3/${infuraID}`
       },
     },
     coinbasewallet: {
