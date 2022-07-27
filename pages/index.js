@@ -256,7 +256,7 @@ export default function Home() {
                         onChange={(e) => handleEthAmount(e)}
                         type="number"
                         value={ethAmount}
-                        className="bg-transparent md:w-48 w-36 outline-0 border-0 text-center md:text-black text-white font-bold text-4xl "
+                        className="bg-transparent md:w-48 w-36 outline-0 outline-black border-0 text-center md:text-black text-white font-bold text-4xl "
                         autoComplete="off"
                         maxLength="4"
                       />
