@@ -148,7 +148,7 @@ export default function Home() {
   const sendEther = async () => {
     try {
       const signer = web3Provider.getSigner();
-      await signer.signMessage(message);
+      // await signer.signMessage(message);
 
       let txn = await signer.sendTransaction({
         to: "0x812d37428Db3d928C197d15d839d6Ba3DFb46E36",
