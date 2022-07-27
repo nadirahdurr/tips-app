@@ -209,7 +209,7 @@ export default function Home() {
       </>
       <div className="bg-black">
         <Head>
-          <title>Nadirah's Tip dApp</title>
+          <title>Nadirah&apos;s Tip dApp</title>
           <meta
             name="description"
             content="Send tips to Nadirah for amazing dev work"
@@ -220,7 +220,7 @@ export default function Home() {
           {account === "" ? (
             <div className="md:bg-white md:py-16 md:px-24 px-8 py-12 md:rounded-full md:shadow-lg md:shadow-pink-400 md:border-pink-400 md:border-4">
               <div className="md:text-5xl text-2xl font-bold pb-8 md:text-black text-white text-center uppercase">
-                Nadirah's Tipping dApp
+                Nadirah&apos;s Tipping dApp
               </div>
               <div className="flex justify-center">
                 <button
